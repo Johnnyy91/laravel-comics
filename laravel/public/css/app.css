@@ -27,53 +27,98 @@
   height: 100%;
 }
 
-.footer {
+.container-footer {
+  background-color: hsl(209deg, 100%, 49%);
+  padding: 20px;
+}
+
+.card-container {
+  max-width: 1000px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-around;
+}
+
+.card1 {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
   color: white;
-  overflow: hidden;
+}
+
+.card1 img {
+  width: 50px;
+}
+
+.card1 .img-svg {
+  width: 60px;
+}
+
+.card1 span {
+  color: white;
+}
+
+.menu-footer {
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  padding: 10px;
 }
 
 .logo-footer img {
-  width: 100%;
-  margin: -50px 0;
+  width: 305px;
+  margin-top: -25px;
+  margin-bottom: -25px;
 }
 
-.link-list {
+.menu-list {
   display: flex;
 }
 
-.link-list li {
+li {
   list-style-type: none;
-  padding: 5px 0;
+  padding: 2px 0;
 }
 
-.link-list li a {
-  color: white;
+li a {
+  color: rgb(201, 192, 192);
   text-decoration: none;
+  font-size: 12px;
 }
 
-.link-list li a:hover {
+li a:hover {
   text-decoration: underline;
 }
 
-.link-list .content-list {
+.content-list {
   padding: 20px 30px;
 }
 
-.link-list .content-list h3 {
-  padding: 15px 0;
+.content-list h3 {
+  padding: 10px 0;
+  margin-left: 10px;
 }
 
-.social-footer {
+.menu-list ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-dark {
   background-color: hsl(240deg, 1%, 19%);
+}
+
+.second-footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 30px 0;
 }
 
-.but-foot button {
+.signup button {
   color: white;
   border: 2px solid hsl(209deg, 100%, 49%);
   padding: 10px 15px;
@@ -86,21 +131,21 @@ button:hover {
   opacity: 0.7;
 }
 
-.icon-social {
+.icon {
   display: flex;
   align-items: center;
 }
 
-.icon-social h3 {
+.icon h3 {
   color: hsl(209deg, 100%, 49%);
   padding: 0px 20px;
 }
 
-.icon-social img {
+.icon img {
   padding: 0px 10px;
 }
 
-.icon-social img:hover {
+.icon img:hover {
   cursor: pointer;
   opacity: 0.7;
 }
