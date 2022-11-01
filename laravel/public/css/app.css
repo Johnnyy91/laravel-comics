@@ -5,6 +5,7 @@
 }
 
 .initial {
+  padding: 0 50px;
   background-color: hsl(209deg, 100%, 49%);
   color: white;
   display: flex;
@@ -13,9 +14,17 @@
 }
 
 .center {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.center a {
+  text-decoration: none;
+  color: hsl(180deg, 1%, 30%);
+  padding: 0 10px;
 }
 
 .jumbotron {
@@ -33,7 +42,7 @@
 }
 
 .card-container {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
